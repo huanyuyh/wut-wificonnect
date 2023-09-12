@@ -10,7 +10,7 @@ import java.util.Random;
 public class main {
     public static void main(String[] args) {
         HttpRequest h = new HttpRequest();
-        String data = "username=329115&password=nyh314nyh&nasId=";
+        String data = "username=用户名&password=密码&nasId=";
         String result = h.WutWifiConnect(data);
         System.out.println(result);
 //        try {
